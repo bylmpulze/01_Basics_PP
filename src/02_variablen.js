@@ -7,9 +7,9 @@
 
 
 /****Variablen ****/
-let firstname;
+let firstName;
 console.log(firstname); /// Ausgabe
-firstname = "Max"; // Wertzuweisung
+firstName = "Max"; // Wertzuweisung
 console.log("Inhalt" + firstname); /// WertAusgabe
-let familyname = "Mütze"; /// Deklaration & Wertzuweisung
-console.log("Hi, Ich bin" , firstname , "", familyname, "!"); 
+let familyName = "Mütze"; /// Deklaration & Wertzuweisung
+console.log("Hi, Ich bin" , firstName , "", familyName, "!"); 
