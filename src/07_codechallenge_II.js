@@ -15,5 +15,28 @@ Alter 13-17 // Cola
 -->zB: "Max trinkt Cola."
 
 /* Getränke-Challenge */
+const prompt = require('prompt-sync')({sigint: true});
 
+firstName = prompt("bitte gebe deinen namen ein");
+getAge = prompt("bitte gebe dein alter ein");
+
+getAge = parseFloat(getAge);
+const cond = true;
+switch (cond) {
+    case (getAge >= 0 && getAge <= 5):
+        console.log(firstName, "Trinkt Milch.");
+        break;
+    case (getAge <= 12):
+        console.log(firstName, "Trinkt Saft.");
+        break;
+    case (getAge <=17):
+        console.log(firstName, "Trinkt Cola.");
+        break;
+    case (getAge >=18):
+        console.log(firstName, "Trinkt wein.");
+        break;
+    default:
+        console.log(firstName, "ungültige eingabe.");
+        break;
+}
 
