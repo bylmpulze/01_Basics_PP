@@ -88,9 +88,9 @@ getOrder = parseFloat(getOrder);
 
 output(getOrder);
 
-Order_Food()
+order_food()
 
-function Order_food(){
+function order_food(){
     if (parseFloat(getOrder == 1)) 
         {cheeseburger += 1, output(cheeseburger) }
     if (getOrder == 2) 
@@ -99,7 +99,7 @@ function Order_food(){
     {chickenburger +=1}
     else 
         output("Falsche eingabe bitte versuchen Sie es nocheinmal")
-        return (Order_food)
+        return (order_food)
 }
     
 
