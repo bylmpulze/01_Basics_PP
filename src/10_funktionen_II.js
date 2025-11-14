@@ -69,9 +69,7 @@ function calculator(a,b,op) {
 			return Error_Str_GEN
 	}
 }
-a = 3
-b = 7
-go = true
+--
 
 
 
